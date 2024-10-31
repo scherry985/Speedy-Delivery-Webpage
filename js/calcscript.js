@@ -34,6 +34,8 @@ function populateOptions() {
 
 function reset() {
     document.getElementById("results").innerHTML = "";
+    document.getElementById("destination").selectedIndex = 0;
+    document.getElementById("weight").selectedIndex = 0;
 }
 
 window.onload = function () {
